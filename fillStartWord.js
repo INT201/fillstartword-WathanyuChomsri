@@ -12,9 +12,11 @@ function fillStartWord(startWord, word) {
     return startWord + word
   }
 }
-(fillStartWord("1-2565","Hello"))
-(fillStartWord("JS","beginner"))
-(fillStartWord("first","firststep"))
-(fillStartWord("first",null))
-(fillStartWord("first",undefined))
+  
+// (fillStartWord("1-2565","Hello"))
+// (fillStartWord("JS","beginner"))
+// (fillStartWord("first","firststep"))
+// (fillStartWord("first",null))
+// (fillStartWord("first",undefined))
+
 module.exports = fillStartWord
